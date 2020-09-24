@@ -8,35 +8,34 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Chirpy                          # the main title
+title: PCW3R                          # the main title
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+tagline: Think outside the box.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Teach and share you techniques used by the hackers through pentest labs and challenges.
+  infosec, writeup, hacking, pentest, challenges, hackthebox, rootme, tryhackme, pcw3r
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://pcw3r.github.io'
 
-author: your_full_name                  # change to your full name
+author: pcw3r                           # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+#avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
 github:
-  username: github_username             # change to your github username
+  username: PCW3R             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: PCW3R            # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: pcw3r                  # it will shows as the copyright owner in Footer
+  email: pcw3r@protonmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/pcw3r      # change to your twitter homepage
+    - https://github.com/pcw3r       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -51,7 +50,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Europe/Paris
 
 google_analytics:
   id: ''          # Fill with your Google Analytics ID
@@ -78,7 +77,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode: dual
+theme_mode: dark
 
 # boolean type, global switch for ToC in posts.
 toc: true
