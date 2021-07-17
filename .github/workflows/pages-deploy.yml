@@ -54,7 +54,7 @@ jobs:
 
       - name: Check baseurl
         run: |
-          baseurl="$(grep '^baseurl:' _config.yml | yq r - baseurl)"
+          baseurl="$(grep '^baseurl:' _config.yml | yq eval - baseurl)"
           if [[ -n $baseurl ]]; then
             echo "::set-env name=SPEC_TEST::_site_no_baseurl"
           fi
